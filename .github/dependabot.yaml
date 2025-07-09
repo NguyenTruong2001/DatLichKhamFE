@@ -5,13 +5,6 @@ updates:
     schedule:
       interval: "daily"
     groups:
-      # Front end team does not want combined dependency updates.
-      # version-updates:
-      #   applies-to: version-updates
-      #   patterns:
-      #     - "*"
-      #   exclude-patterns:
-      #     - "@coles/*"
       security-updates:
         applies-to: security-updates
         patterns:
